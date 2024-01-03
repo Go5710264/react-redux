@@ -9,4 +9,4 @@
 
 <br>
 
-<img src="./react-redux.gif" width="360" height="400" alt="Demo">
+<img src="./react-redux.gif" width="360" height="200" alt="Demo">
