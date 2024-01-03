@@ -2,7 +2,8 @@
 
 ## React-redux
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
 
 Число введенное в инпут записывается в глобальный state с помощью react-redux и при нажатии enter выводится в поле "Result:". 
 При вводе в инпут другого числа оно будет прибавляться или вычитаться из результата, в зависимости от введенного знака перед числом
