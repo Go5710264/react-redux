@@ -1,24 +1,25 @@
 import {
     combineReducers,
-    compose,
+    // compose,
     legacy_createStore
 } from 'redux'
 import numberReducer from './numberReducer'
 
 /**
- * Подключение Redux-devtools
+ * Для подключения Redux-devtools
+ * необходимо раскомментировать весь код
  */
-// @ts-ignore
-const ReactReduxDevTools = window.__REDUX_DEVTOOLS_EXTENSION__  && window.__REDUX_DEVTOOLS_EXTENSION__();
+
+// const ReactReduxDevTools = window.__REDUX_DEVTOOLS_EXTENSION__  && window.__REDUX_DEVTOOLS_EXTENSION__();
 
 export const configureStore = () => {
     return legacy_createStore(
         combineReducers({
             number: numberReducer,
         }),
-        compose(
-            ReactReduxDevTools,
-        )
+        // compose(
+        //     ReactReduxDevTools,
+        // )
     )
 }
 

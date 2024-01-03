@@ -39,7 +39,7 @@ export default function MainApp() {
               className="form__button"
             >change number</button>
         </div>
-        <span className="form__signature">{numberValue}</span>
+        <span className="form__signature">Result: {numberValue}</span>
     </form>
   );
 }

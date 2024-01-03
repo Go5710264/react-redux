@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+[![Dak1 CI/CD](https://github.com/Go5710264/run-keeper/actions/workflows/deploument.yml/badge.svg)](https://github.com/Go5710264/react-redux/actions/workflows/deploument.yml)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React-redux
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Число введенное в инпут записывается в глобальный state с помощью react-redux и при нажатии enter выводится в поле "Result:". 
+При вводе в инпут другого числа оно будет прибавляться или вычитаться из результата, в зависимости от введенного знака перед числом
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<img src="./react-redux.gif" width="360" height="400" alt="Demo">
