@@ -66,3 +66,18 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/*  */
+
+.change-number__input {
+  display: block;
+  margin-bottom: 10px;
+}
+.change-number__button {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.change-number__result {
+  display: block;
+}
