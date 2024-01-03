@@ -10,7 +10,7 @@ export type StateItem = {
   userValue: string;
 }
 
-export default function MainAppFunc() {
+export default function MainApp() {
   const dispatch = useDispatch();
   const {value: numberValue, userValue} = useSelector((state: StateStore) => state.number);
   
